@@ -1,0 +1,4 @@
+<mat-card *ngFor="let person of people" class="address-card">
+  <mat-card-title>{{ person.name }}</mat-card-title>
+  <button mat-button color="accent" (click)="openDialog(person)">View Details</button>
+</mat-card>
